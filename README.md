@@ -1,0 +1,1 @@
+OOP wsp-like project on JAVA
