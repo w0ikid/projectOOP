@@ -1,1 +1,0 @@
-Java for guys | nurik test
