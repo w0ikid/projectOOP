@@ -1,1 +1,1 @@
-Java for guys | nurik test
+OOP wsp-like project on JAVA
