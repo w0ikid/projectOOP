@@ -318,9 +318,12 @@ public class Main {
                 	String email = scanner.next();
                 	System.out.print(messages.getString("enter_password"));
                 	String password = scanner.next();
+                    
+                    User u1 = UserDAO.loginUser(email, password);    
 
-                	if (UserDAO.loginUser(email, password) != null) {
+                	if (u1 != null) {
                     	System.out.print(messages.getString("hello_you_are_entered"));
+                        System.out.println(u1);
                 	}
                 	break;
 

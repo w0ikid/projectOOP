@@ -1,10 +1,16 @@
 package Utils;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import core.model.Employee;
 import core.model.EmployeeType;
 import core.model.Gender;
 import core.model.Role;
-import java.sql.*;
 
 public class EmployeeDAO {
 
